@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
     s.source       = {:git => 'https://github.com/debug404/MedicareAnalyse.git', :tag => s.version}
 
-    s.source_files = 'MedicareAnalyse/MedicareAnalyse/MedicareAnalyse/**/*.{h,m}'
+    s.source_files = 'MedicareAnalyse/MedicareAnalyse/**/*.{h,m}'
 
     #s.resource     = 'Mytest/Mytest.bundle'
     s.requires_arc = true
