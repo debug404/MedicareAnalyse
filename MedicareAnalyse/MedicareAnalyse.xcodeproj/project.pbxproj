@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		847141E61EEC01BC002FFC90 /* TextModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 847141E41EEC01BC002FFC90 /* TextModel.h */; };
+		847141E71EEC01BC002FFC90 /* TextModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 847141E51EEC01BC002FFC90 /* TextModel.m */; };
 		84EABA271EEBF13B00F553AB /* MedicareAnalyse.h in Headers */ = {isa = PBXBuildFile; fileRef = 84EABA251EEBF13B00F553AB /* MedicareAnalyse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		847141E41EEC01BC002FFC90 /* TextModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextModel.h; sourceTree = "<group>"; };
+		847141E51EEC01BC002FFC90 /* TextModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextModel.m; sourceTree = "<group>"; };
 		84EABA221EEBF13B00F553AB /* MedicareAnalyse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MedicareAnalyse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EABA251EEBF13B00F553AB /* MedicareAnalyse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedicareAnalyse.h; sourceTree = "<group>"; };
 		84EABA261EEBF13B00F553AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +52,8 @@
 			children = (
 				84EABA251EEBF13B00F553AB /* MedicareAnalyse.h */,
 				84EABA261EEBF13B00F553AB /* Info.plist */,
+				847141E41EEC01BC002FFC90 /* TextModel.h */,
+				847141E51EEC01BC002FFC90 /* TextModel.m */,
 			);
 			path = MedicareAnalyse;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84EABA271EEBF13B00F553AB /* MedicareAnalyse.h in Headers */,
+				847141E61EEC01BC002FFC90 /* TextModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847141E71EEC01BC002FFC90 /* TextModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +296,7 @@
 				84EABA2C1EEBF13B00F553AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

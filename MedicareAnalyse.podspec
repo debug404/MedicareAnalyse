@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 	s.framework  = "Foundation"
     s.name         = 'MedicareAnalyse'
-    s.version      = '1.0.2'
+    s.version      = '1.0.0'
     s.summary      = 'An easy way to use pull-to-refresh'
     s.homepage     = 'https://github.com/CoderMJLee/MJRefresh'
     s.license      = 'MIT'
@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
     s.source       = {:git => 'https://github.com/debug404/MedicareAnalyse.git', :tag => s.version}
 
     s.source_files = 'MedicareAnalyse/**/*.{h,m}'
+    
     #s.resource     = 'Mytest/Mytest.bundle'
     s.requires_arc = true
 end
