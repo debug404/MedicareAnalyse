@@ -3,15 +3,11 @@ Pod::Spec.new do |s|
 	s.framework  = "Foundation"
     s.name         = 'MedicareAnalyse'
     s.version      = '1.0.0'
-    s.summary      = 'An easy way to use pull-to-refresh'
-    s.homepage     = 'https://github.com/CoderMJLee/MJRefresh'
-    s.description = 'This library provides a category for UIImageView with support for remote '      \
-                  'images coming from the web. It provides an UIImageView category adding web '    \
-                  'image and cache management to the Cocoa Touch framework, an asynchronous '      \
-                  'image downloader, an asynchronous memory + disk image caching with automatic '  \
-                  'cache expiration handling, a guarantee that the same URL won\'t be downloaded ' \
-                  'several times, a guarantee that bogus URLs won\'t be retried again and again, ' \
-                  'and performances!'
+    s.summary      = 'MedicareAnalyse'
+    s.homepage     = 'https://github.com/debug404/MedicareAnalyse'
+    s.description = <<-DESC
+                       用于记录应用中的日志，包括启动日志，点击日志，页面访问日志，崩溃日志，行为日志，以及个性化的自定义日志。
+                       DESC
     s.license      = 'MIT'
     s.authors      = {"debug404" => "leon9402@live.com"}
     s.platform     = :ios, '8.0'
