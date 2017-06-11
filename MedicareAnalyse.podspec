@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
     #s.libraries     = 'libsqlite3.tbd'
     s.libraries     = 'sqlite3'
     s.name         = 'MedicareAnalyse'
-    s.version      = '1.0.1'
+    s.version      = '2.0.0'
     s.summary      = 'MedicareAnalyse'
     s.homepage     = 'https://github.com/debug404/MedicareAnalyse'
     s.description = <<-DESC
