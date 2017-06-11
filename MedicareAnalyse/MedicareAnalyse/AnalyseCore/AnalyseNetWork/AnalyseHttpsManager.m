@@ -8,6 +8,15 @@
 
 #import "AnalyseHttpsManager.h"
 
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "JSONKit.h"
+#import "IFlyUserDefaults.h"
+#import "MJExtension.h"
+#import "AnalyseHttpsManager.h"
+#import "AFNetworking.h"
+
+
 #define kTimeOutInterval 30 // 请求超时的时间
 
 #define ANALYSEBASE_URL @"ANALYSEBASE_URL"

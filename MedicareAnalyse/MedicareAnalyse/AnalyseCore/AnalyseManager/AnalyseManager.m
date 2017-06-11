@@ -17,6 +17,17 @@
 #import "UUIDManager.h"
 #import "AnalyseLocation.h"
 #import "FileUtil.h"
+
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "JSONKit.h"
+#import "IFlyUserDefaults.h"
+#import "MJExtension.h"
+#import "AnalyseHttpsManager.h"
+#import "AFNetworking.h"
+
+
 @interface AnalyseManager()
 
 @end
