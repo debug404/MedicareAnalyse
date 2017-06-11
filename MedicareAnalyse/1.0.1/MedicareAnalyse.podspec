@@ -1,6 +1,8 @@
 Pod::Spec.new do |s|
 
-	s.framework  = "Foundation"
+	s.frameworks    = 'Foundation','CoreLocation'
+    #s.libraries     = 'libsqlite3.tbd'
+    s.libraries     = 'sqlite3'
     s.name         = 'MedicareAnalyse'
     s.version      = '1.0.1'
     s.summary      = 'MedicareAnalyse'
@@ -12,7 +14,7 @@ Pod::Spec.new do |s|
     s.authors      = {"debug404" => "leon9402@live.com"}
     s.platform     = :ios, '8.0'
 
-    s.source       = {:git => 'https://github.com/debug404/MedicareAnalyse.git', :commit => "99cff488592af7fe692ee2cb4d7ffac21a556880", :tag => s.version}
+    s.source       = {:git => 'https://github.com/debug404/MedicareAnalyse.git', :commit => "4fb684fd8c5d9a3c0e9082c6ce13fc8cfae3c02f", :tag => s.version}
 
     s.source_files = 'MedicareAnalyse/MedicareAnalyse/**/*.{h,m}'
 
