@@ -4,6 +4,7 @@
 //
 
 #import "DeviceModelController.h"
+#import "MJExtension.h"
 @implementation DeviceModelController
 static FMDatabase *_fmdb;
 

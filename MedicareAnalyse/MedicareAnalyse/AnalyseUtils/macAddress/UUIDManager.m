@@ -8,6 +8,7 @@
 
 #import "UUIDManager.h"
 #import "KeyChainManager.h"
+#import "IFlyUserDefaults.h"
 
 #define KEY_IN_KEYCHAIN [[NSBundle mainBundle] bundleIdentifier]
 

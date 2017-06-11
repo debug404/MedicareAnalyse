@@ -8,10 +8,7 @@
 
 #ifndef MobileX_pch
 #define MobileX_pch
-#define MOBILEX_URL @"http://192.168.57.116:8081/mserver/rest/ms"
 
-#define DEVICE_URL @"/ifly-sa-daq/rest/daq/device"
-#define MOBILEX_LOG_URL @"/ifly-sa-daq/rest/daq/logger"
 
 
 #define TEMP_BASE_PATH [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/templ"]
@@ -24,7 +21,6 @@
 #ifdef __OBJC__
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "JSONKit.h"
 #import "IFlyUserDefaults.h"
 #import "MJExtension.h"
 #import "AnalyseHttpsManager.h"

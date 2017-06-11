@@ -7,6 +7,7 @@
 //
 
 #import "LogModel.h"
+#import "MJExtension.h"
 
 @implementation LogModel
 

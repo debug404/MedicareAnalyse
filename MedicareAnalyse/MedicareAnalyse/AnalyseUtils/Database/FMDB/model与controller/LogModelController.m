@@ -4,6 +4,7 @@
 //
 
 #import "LogModelController.h"
+#import "MJExtension.h"
 @implementation LogModelController
 static FMDatabase *_fmdb;
 

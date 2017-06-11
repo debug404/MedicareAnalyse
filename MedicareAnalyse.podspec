@@ -1,6 +1,8 @@
 Pod::Spec.new do |s|
 
-	s.framework  = "Foundation"
+	s.frameworks    = 'Foundation','CoreLocation'
+    #s.libraries     = 'libsqlite3.tbd'
+    s.libraries     = 'sqlite3'
     s.name         = 'MedicareAnalyse'
     s.version      = '1.0.1'
     s.summary      = 'MedicareAnalyse'

@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+#import "Reachability.h"
+//#import "JSONKit.h"
+#import "AnalyseManager.h"
+#import "AnalyseConfig.h"
+#import "UUIDManager.h"
+#import "LogModel.h"
+#import "AnalyseLocation.h"
+
+
 //! Project version number for MedicareAnalyse.
 FOUNDATION_EXPORT double MedicareAnalyseVersionNumber;
 

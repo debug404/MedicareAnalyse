@@ -21,12 +21,16 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "JSONKit.h"
+//#import "JSONKit.h"
 #import "IFlyUserDefaults.h"
 #import "MJExtension.h"
 #import "AnalyseHttpsManager.h"
 #import "AFNetworking.h"
 
+#define MOBILEX_URL @"http://192.168.57.116:8081/mserver/rest/ms"
+
+#define DEVICE_URL @"/ifly-sa-daq/rest/daq/device"
+#define MOBILEX_LOG_URL @"/ifly-sa-daq/rest/daq/logger"
 
 @interface AnalyseManager()
 
