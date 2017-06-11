@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.authors      = {"debug404" => "leon9402@live.com"}
     s.platform     = :ios, '8.0'
 
-    s.source       = {:git => 'https://github.com/debug404/MedicareAnalyse.git', :commit => "99cff488592af7fe692ee2cb4d7ffac21a556880", :tag => s.version}
+    s.source       = {:git => 'https://github.com/debug404/MedicareAnalyse.git', :commit => "5fe5f5de40e4841cf8fa4a8f12445d9e2d5ade6a", :tag => s.version}
 
     s.source_files = 'MedicareAnalyse/MedicareAnalyse/**/*.{h,m}'
 
