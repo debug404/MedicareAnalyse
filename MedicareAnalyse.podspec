@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 	s.framework  = "Foundation"
     s.name         = 'MedicareAnalyse'
-    s.version      = '1.0.0'
+    s.version      = '1.0.1'
     s.summary      = 'MedicareAnalyse'
     s.homepage     = 'https://github.com/debug404/MedicareAnalyse'
     s.description = <<-DESC
