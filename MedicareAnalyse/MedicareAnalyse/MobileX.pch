@@ -1,0 +1,37 @@
+//
+//  MobileX.pch
+//  MobileXCoreBusiness
+//
+//  Created by frog78 on 15/11/10.
+//  Copyright © 2015年 iflytek. All rights reserved.
+//
+
+#ifndef MobileX_pch
+#define MobileX_pch
+#define MOBILEX_URL @"http://192.168.57.116:8081/mserver/rest/ms"
+
+#define DEVICE_URL @"/ifly-sa-daq/rest/daq/device"
+#define MOBILEX_LOG_URL @"/ifly-sa-daq/rest/daq/logger"
+
+
+#define TEMP_BASE_PATH [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/templ"]
+#define LOG_STORE_PATH [NSHomeDirectory() stringByAppendingPathComponent:@"Documents/CrashReport"]
+#define APP_VERSION [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+
+
+#define ENCRYPTION_SWITCH YES
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "JSONKit.h"
+#import "IFlyUserDefaults.h"
+#import "MJExtension.h"
+#import "AnalyseHttpsManager.h"
+#import "AFNetworking.h"
+
+#endif
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* MobileX_pch */
